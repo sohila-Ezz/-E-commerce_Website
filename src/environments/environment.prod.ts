@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  BacAPIURL: 'https://localhost:44388/api'
 };

@@ -1,0 +1,73 @@
+
+.full {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+
+    .main_heading {
+        position: relative;
+        text-align: center;
+      
+       h2 span::after {
+          content: "";
+          display: block;
+          width: 90px;
+          height: 7px;
+          background: #d7bb3e;
+          position: relative;
+          right: 0;
+          bottom: 0;
+          margin: 10px auto 0;
+      }
+  }
+}
+
+.category{
+ text-align: center;
+
+ button{
+
+        font-size: 22px;
+        width: 170px;
+        border: solid #ddd 2px;
+        border-radius: 5px;
+        color: #999;
+        
+        cursor: pointer;
+        padding: 8px 25px 7px;
+        background: #fff;
+        
+    }
+    button:hover, button:focus{
+        background-color: #D8BD43;
+        color: white;
+        border: none;
+    }
+    button, select {
+        text-transform: none;
+    } 
+ }
+.card{
+      border: 3px solid #222222;
+      text-align: center;
+      display: inline-block;
+   .card-body{
+      font-size: 23px;
+      color: white;
+      font-weight: bold;
+      background-color: #222222;
+    }
+   .addCart{
+     background-color: #D8BD43;
+     color: #222222;
+     width: 230px;
+     font-size: 15px;
+     font-weight: bold;
+    }
+   img{
+     height: 200px;
+    } 
+}

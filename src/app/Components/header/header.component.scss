@@ -1,0 +1,48 @@
+header{
+    background-image: url('/assets/slider_1.jpg');
+    height: 100vh;  background-repeat:no-repeat; background-size: cover ;
+    background-position: center center;
+  }
+  nav{
+   
+    background-color: rgba(0, 0, 0, 0.8);
+    .nav-link{
+      color: white !important;
+    }
+    .nav-link:hover{
+      color: #dc3545!important;
+    }
+  }
+  .spanBrand{
+      color: #dc3545;
+  }
+  .discrpt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+
+  .bt{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: 10px 20px;
+  }
+  .bt:hover{
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  

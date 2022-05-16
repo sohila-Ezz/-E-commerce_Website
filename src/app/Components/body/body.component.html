@@ -1,0 +1,24 @@
+<div class="full">
+  <div class="main_heading text_align_center">
+     <h2><span>OUR READY PRODUCTS</span></h2>
+  </div>
+</div> 
+<div class="mb-3 col">
+   <div class="category"> 
+    <button (click)="showProducts(cat.id)" class="m-2 " *ngFor="let cat of CatList" [value]="cat.id">{{cat.name}}</button>
+</div> 
+</div>
+<hr>
+<div class="justify-center center">
+  <div class="card m-4" style="width: 18rem;" Ligth *ngFor="let pro of filtProduct; let i=index">
+      <img class="card-img-top" [src]="pro.image" alt="Card image cap">
+      <div class="card-body" >
+       
+        <p class="card-text">{{pro.name}}</p>
+        <p class="card-text">{{pro.price|currency}} </p>
+        <div class="row">
+        <button (click)="addtoOrder(pro.id)"  class="btn addCart col">Add to Cart</button>
+      </div>
+      </div>
+    </div>
+  </div>
